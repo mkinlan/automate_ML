@@ -10,4 +10,4 @@ You know that the departments align to regions and teams in a logical way, but y
 
 Let's see!
 
-Click on the notebook file to start.
+Click on the notebook file **automate_with_ML_rf_smote.ipynb** to start.
