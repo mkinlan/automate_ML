@@ -11,3 +11,9 @@ You know that the departments align to regions and teams in a logical way, but y
 Let's see!
 
 Click on the notebook file **automate_with_ML_rf_smote.ipynb** to start.
+
+### Bonus Update! 
+
+But wait there's more! 
+
+One of the most important things to be able to do with a saved model is deploy it. After cloning this repo, run the 'main.py' file to launch a Flask web application allowing the user to upload a spreadsheet of new data for the saved model to process. 
