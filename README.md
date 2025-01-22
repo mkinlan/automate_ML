@@ -12,7 +12,7 @@ Let's see!
 
 Click on the notebook file **automate_with_ML_rf_smote.ipynb** to start.
 
-### Bonus Update! 
+### Bonus Update - Flask
 
 But wait there's more! 
 
