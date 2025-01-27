@@ -823,7 +823,9 @@ Happy coding :)
 
 But wait there's more! 
 
-One of the most important things to be able to do with a saved model is deploy it.
+One of the most important things to be able to do with a saved model is deploy it. One way to do this is by using Flask. In a nutshell, Flask allows you to build a web interface so that a user can send data to your model and receive the results. 
+
+To see an example of how to do this with the project above, download this repot (make sure you keep the folder structure the same, because Flask looks for HTML files in a "templates" folder), and run "main.py".
 
 
 
