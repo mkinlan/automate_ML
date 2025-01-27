@@ -825,7 +825,21 @@ But wait there's more!
 
 One of the most important things to be able to do with a saved model is deploy it. One way to do this is by using Flask. In a nutshell, Flask allows you to build a web interface so that a user can send data to your model and receive the results. 
 
-To see an example of how to do this with the project above, download this repot (make sure you keep the folder structure the same, because Flask looks for HTML files in a "templates" folder), and run "main.py".
+To see an example of how to do this on a development server with the project above, download this repot (make sure you keep the folder structure the same, because Flask looks for HTML files in a "templates" folder), and run "main.py". You'll see something like this in your terminal: 
+
+![Screenshot 2025-01-27 at 3 45 12 PM](https://github.com/user-attachments/assets/bf60d7c3-1fb0-4ebb-b4c1-39687f8ad2d9)
+
+Press [CMD + click] over the url to open the application on a local host, or just copy/paste it into a browser. This will bring you to the main interface, which is the code in "index.html" : 
+
+![Screenshot 2025-01-27 at 3 52 34 PM](https://github.com/user-attachments/assets/12d027b7-0d5c-441d-a202-ec1f32c46eaf)
+
+Click the "Choose File" button, and navigate to the file "new_data.xlsx". It's important to use this data for this exercise, because it is set up in the format that the model will expect. If you were to use this application in the real world, it would be a good idea to build-in some error handling so that the model will give an error if the new data isn't in the format expected. As written now, the app will crash if the user tries to upload data in the wrong format. This could also be handled by building in a form, so that the user can only enter in data in the specific format that the model requires. 
+
+Click "Submit" to run the model. Once the model is run, the results (the predictions) will display on the screen, with an option for the user to download the results as a csv file. 
+
+![Screenshot 2025-01-27 at 3 59 41 PM](https://github.com/user-attachments/assets/1085334a-8894-4223-a130-55466735a14d)
+
+Voila!
 
 
 
