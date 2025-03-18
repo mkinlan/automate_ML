@@ -245,8 +245,8 @@ Now it's time to run the training data through both pipelines and get our predic
 
 ```python
 # Train both pipelines
-pipeline_audit_cat.fit(X_train['COMP_OFFICE_SERVICE'], y_train['AUDIT_CAT'])  
-pipeline_team.fit(X_train[['COMP_OFFICE_SERVICE', 'REGION']], y_train['TEAM'])
+pipeline_audit_cat.fit(X_train['COMP_OFFICE_SERVICE'], y_train['AUDIT_CAT']) #Tfidfvectorizer() expects a 1D array; fit as a series rather than a df 
+pipeline_team.fit(X_train[['COMP_OFFICE_SERVICE', 'REGION']], y_train['TEAM']) #this can be a df (double brackets),since it's pipe has a preprocessor step (Columntransformer) 
 
 ```
 
